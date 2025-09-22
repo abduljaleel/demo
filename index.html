@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HESTA-style Super Fund | Demo</title>
+  <meta name="description" content="A modern super fund landing page demo with responsive design and accessible interactions." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="Super Fund Home">SuperFund</a>
+      <button class="nav-toggle" aria-controls="primary-nav" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <nav id="primary-nav" class="nav" aria-label="Primary">
+        <ul>
+          <li><a href="#features">Benefits</a></li>
+          <li><a href="#trust">Performance</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#faqs">FAQs</a></li>
+          <li><a href="#contact" class="btn btn-sm">Join now</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Grow your super with a fund that puts you first</h1>
+          <p>Low fees, strong long-term performance, and award‑winning service. Join in minutes.</p>
+          <div class="hero-cta">
+            <a href="#contact" class="btn">Join now</a>
+            <a href="#resources" class="btn btn-outline">Compare options</a>
+          </div>
+          <ul class="hero-trust">
+            <li>APRA regulated</li>
+            <li>Member‑first governance</li>
+            <li>Responsible investing</li>
+          </ul>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="card card-balance">
+            <p class="eyebrow">Projected balance</p>
+            <p class="big">$542,300</p>
+            <p class="muted">At retirement, based on assumptions</p>
+          </div>
+          <div class="card card-performance">
+            <p class="eyebrow">10-year return</p>
+            <p class="big positive">+8.4% p.a.</p>
+            <p class="muted">Past performance isn’t a reliable indicator of future performance.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="container">
+        <h2>Why choose our super</h2>
+        <div class="grid features">
+          <article class="feature">
+            <h3>Strong long‑term performance</h3>
+            <p>Diversified investment options designed to help grow your balance over time.</p>
+          </article>
+          <article class="feature">
+            <h3>Low, transparent fees</h3>
+            <p>Keep more of your money working for your future with competitive fees.</p>
+          </article>
+          <article class="feature">
+            <h3>Insurance that fits</h3>
+            <p>Flexible cover tailored to your life stage and occupation.</p>
+          </article>
+          <article class="feature">
+            <h3>Member support</h3>
+            <p>Guidance, tools, and education to help you make confident decisions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="trust" class="section alt">
+      <div class="container">
+        <h2>Performance and trust</h2>
+        <div class="grid trust">
+          <div class="stat">
+            <p class="label">Members</p>
+            <p class="value">1.2M+</p>
+          </div>
+          <div class="stat">
+            <p class="label">Funds under management</p>
+            <p class="value">$78B</p>
+          </div>
+          <div class="stat">
+            <p class="label">Awards</p>
+            <p class="value">Best Super 2024</p>
+          </div>
+          <div class="stat">
+            <p class="label">Satisfaction</p>
+            <p class="value">96%</p>
+          </div>
+        </div>
+        <p class="disclaimer">Figures shown are illustrative for demo purposes only.</p>
+      </div>
+    </section>
+
+    <section id="resources" class="section">
+      <div class="container">
+        <h2>Tools and resources</h2>
+        <div class="grid cards">
+          <article class="card resource">
+            <h3>Super calculator</h3>
+            <p>Estimate your future balance and explore contribution strategies.</p>
+            <a class="link" href="#">Open calculator</a>
+          </article>
+          <article class="card resource">
+            <h3>Compare fees and performance</h3>
+            <p>See how options stack up over different timeframes.</p>
+            <a class="link" href="#">Compare now</a>
+          </article>
+          <article class="card resource">
+            <h3>Learn about super</h3>
+            <p>Guides to contributions, insurance, and investment risk.</p>
+            <a class="link" href="#">Read guides</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="faqs" class="section alt">
+      <div class="container">
+        <h2>Frequently asked questions</h2>
+        <div class="accordion" role="tablist">
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false">
+              How do I join?
+              <span class="chevron" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-panel" hidden>
+              <p>Joining takes minutes. Have your TFN and ID ready, then complete the online form.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false">
+              What fees will I pay?
+              <span class="chevron" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-panel" hidden>
+              <p>We charge an administration fee and an investment fee that varies by option.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false">
+              Can I change my investment option?
+              <span class="chevron" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-panel" hidden>
+              <p>Yes. You can switch between options at any time from your member portal.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Get started</h2>
+        <form class="card contact-form" novalidate>
+          <div class="form-row">
+            <label for="name">Full name</label>
+            <input id="name" name="name" type="text" placeholder="Jane Citizen" required />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="jane@example.com" required />
+          </div>
+          <div class="form-row">
+            <label for="phone">Phone (optional)</label>
+            <input id="phone" name="phone" type="tel" placeholder="04xx xxx xxx" />
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn">Join now</button>
+            <p class="muted">By proceeding you agree to our <a href="#">terms</a> and <a href="#">privacy</a>.</p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">SuperFund</div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#">Product disclosure</a>
+        <a href="#">Target market determination</a>
+        <a href="#">Privacy</a>
+        <a href="#">Contact</a>
+      </nav>
+      <p class="muted small">This is a demo site not affiliated with any real fund. General information only.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
