@@ -68,6 +68,7 @@ body {
 .hero-trust { display: flex; flex-wrap: wrap; gap: 1rem; padding: 0; margin: 1rem 0 0; list-style: none; color: var(--muted); font-size: 0.95rem; }
 
 .hero-art { display: grid; gap: 1rem; grid-template-columns: 1fr; }
+.hero-image { width: 100%; height: auto; border-radius: 16px; border: 1px solid var(--border); box-shadow: 0 20px 40px -20px var(--shadow); }
 .card { background: linear-gradient(180deg, var(--card), #0b1223); border: 1px solid var(--border); border-radius: 16px; padding: 1rem; box-shadow: 0 20px 40px -20px var(--shadow); }
 .card .eyebrow { color: var(--muted); text-transform: uppercase; font-weight: 600; letter-spacing: 0.06em; font-size: 0.75rem; margin: 0 0 0.25rem; }
 .card .big { font-size: 1.8rem; font-weight: 700; margin: 0.1rem 0 0.4rem; }
@@ -92,6 +93,10 @@ body {
 @media (min-width: 720px) {
   .trust { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
+
+.logo-strip { display: grid; grid-auto-flow: column; gap: 1rem; align-items: center; justify-content: start; overflow-x: auto; padding-bottom: 0.5rem; }
+.logo-strip img { opacity: 0.85; filter: saturate(0.9); }
+.logo-strip img:hover { opacity: 1; filter: none; }
 
 .feature { padding: 1rem; border: 1px solid var(--border); border-radius: 14px; background: linear-gradient(180deg, #0b1223, #0a1120); }
 .stat { padding: 1rem; border: 1px dashed var(--border); border-radius: 14px; text-align: center; }

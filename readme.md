@@ -20,6 +20,7 @@ Project Structure
 - index.html – page structure and content
 - styles.css – theming, layout, and component styles
 - script.js – mobile nav toggle, FAQ accordion, simple form handler
+- assets/ – SVG illustrations and placeholder partner logos
 
 Quick Start
 
@@ -72,6 +73,7 @@ Performance Tips
 - Keep images optimized (WebP/AVIF) and sized appropriately.
 - Use preconnect for fonts (already included) and limit font weights to what you need.
 - Consider inlining critical CSS for production if needed.
+ - Prefer vector/SVG where possible. All shipped logos and the hero artwork are lightweight SVGs.
 
 Deployment
 
@@ -89,3 +91,7 @@ Roadmap (optional)
 Legal/Content Disclaimer
 
 - This is a demo and not affiliated with any actual fund. All content and figures are illustrative only and not financial advice.
+
+Images and Attribution
+
+- Included images are simple, original SVG placeholders created for this demo. Replace them with your own brand assets or licensed imagery as needed.
